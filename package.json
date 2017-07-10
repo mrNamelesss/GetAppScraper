@@ -1,0 +1,21 @@
+{
+  "name": "getapp-com-scrapper",
+  "version": "1.0.0",
+  "description": "Web-scraper for getapp.com",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "debug": "echo \"Don't forget to run node-inspector\" && node --debug-brk app.js"
+  },
+  "author": "mrNamelesss",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "colors": "^1.1.2",
+    "needle": "^1.0.0",
+    "tress": "^1.0.3",
+    "rethinkdb": "^2.3.2",
+    "death": "^1.0.0"
+  }
+}

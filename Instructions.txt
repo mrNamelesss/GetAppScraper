@@ -1,0 +1,5 @@
+0. This is Node.js app. It is expected that you know how to prepare (>npm i) and use it (>node app).
+1. Before starting an app, make sure DATABASE_HOST, DATABASE_PORT, DATABASE_NAME and DATABASE_TABLE_NAME are correct. You can change them in app.js.
+2. Application remembers it's state, so it continues scraping after rerunning from the moment it failed last time.
+3. It saves the state in tasks.json, so please don't modify this file.
+4. You can terminate the process at any time by pressing CTRL+C, and the app saves it's state before exiting.
